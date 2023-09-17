@@ -1,0 +1,1 @@
+// This component manages the game state, including the score and spawning ants.

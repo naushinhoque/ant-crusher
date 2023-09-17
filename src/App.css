@@ -36,3 +36,42 @@
     transform: rotate(360deg);
   }
 }
+
+.ant {
+  position: relative;
+  width: 40px;
+  height: 40px;
+}
+
+.ant-body {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  width: 20px;
+  height: 20px;
+  background-color: brown;
+  border-radius: 50%;
+}
+
+.ant-leg-left {
+  position: absolute;
+  width: 5px;
+  height: 20px;
+  background-color: brown;
+  top: 30px;
+  left: 5px;
+  transform: rotate(-45deg);
+}
+
+.ant-leg-right {
+  position: absolute;
+  width: 5px;
+  height: 20px;
+  background-color: brown;
+  top: 30px;
+  right: 5px;
+  transform: rotate(45deg);
+
+}
+
+
