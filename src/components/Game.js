@@ -1,7 +1,7 @@
 // This component manages the game state, including the score and spawning ants.
 import React, { useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
-import { startGame, crushAnt } from './actions/gameActions';
+import { startGame, crushAnt } from '../actions/gameActions';
 
 function Game() {
     const dispatch = useDispatch();

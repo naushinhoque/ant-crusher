@@ -2,6 +2,7 @@
 import React from 'react';
 import './Ant.css';
 import Ant from './Ant';
+import Game from './Game';
 
 function App() {
 // Variables that generate random # of ants 
@@ -28,6 +29,7 @@ function App() {
     return (
         <div className='App'>
             {ants}
+            <Game />
         </div>
     );
 }
