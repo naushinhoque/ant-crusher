@@ -1,6 +1,6 @@
 // This is the main component that renders the game and sets up Redux.
 import React from 'react';
-import './Ant.css';
+import '../App.css';
 import Ant from './Ant';
 import Game from './Game';
 
@@ -29,7 +29,7 @@ function App() {
     return (
         <div className='App'>
             {ants}
-            <Game />
+            <Game ants={ants} />
         </div>
     );
 }

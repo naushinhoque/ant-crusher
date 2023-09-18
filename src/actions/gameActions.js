@@ -5,6 +5,6 @@ export const startGame = () => {
     return { type: 'START_GAME' };
 };
 
-export const crushAnt = () => {
-    return { type: 'CRUSH_ANT'};
+export const crushAnt = (index) => {
+    return { type: 'CRUSH_ANT', payload: index };
 };

@@ -13,11 +13,12 @@ const gameReducer = (state = initialState, action) => {
                 ...state,
                 isGameStarted: true
             }
-        case 'CRUSH_ANT': 
-            return {
-                ...state,
-                score: state.score + 1
-            }
+            case 'CRUSH_ANT':
+                return {
+                    ...state,
+                    score: state.score + 1,
+                    ants: action.payload // Update the ant list
+                };
         default:
             return state;
     }
